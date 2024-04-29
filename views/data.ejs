@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data</title>
+</head>
+<body>
+  <h1>Data</h1>
+  <ul id="dataList"></ul>
+  <script>
+    // Assuming `data` is a JavaScript variable containing your data array
+    const data = JSON.parse(`<%- JSON.stringify(data) %>`);
+    
+    const dataList = document.getElementById('dataList');
+    data.forEach(item => {
+      const listItem = document.createElement('li');
+      listItem.innerHTML = `<strong>Name:</strong> ${item.name}, <strong>Age:</strong> ${item.age}, <strong>Languages:</strong> ${item.languages.join(', ')}`;
+      dataList.appendChild(listItem);
+    });
+  </script>
+</body>
+</html>

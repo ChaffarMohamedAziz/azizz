@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Bilel",
+    "age": "88",
+    "languages": [
+      "JavaScript",
+      "Python"
+    ]
+  },
+  {
+    "name": "hamza",
+    "age": "44",
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Java"
+    ]
+  },
+  {
+    "name": "amir",
+    "age": "17",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Mohamed",
+    "age": "20",
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Java"
+    ]
+  }
+]
