@@ -31,5 +31,14 @@
       "Python",
       "Java"
     ]
+  },
+  {
+    "name": "aziz",
+    "age": "21",
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Java"
+    ]
   }
 ]
